@@ -1,5 +1,12 @@
+html,
 body{
   font-family: 'Lato', sans-serif;
+position: center;
+align-items: center;
+position: center;
+width: auto;
+ height: auto;
+ background-color: rgb(45, 47, 48);
 }
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -54,19 +61,23 @@ body{
   font-size: 30px;
   font-family: 'Lato', sans-serif;
 }
-    html,
-    body,
+    
     .carousel,
     .carousel-inner,
     .carousel-inner .item {
-      height: 100%;
-    } 
+      size: 75%;
+   height: 500px;
+    width: 900px;
+  position: center;
+ 
+} 
     .item:nth-child(1) {
       background: url('1.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-    }
+    position: center;
+}
 
     .item:nth-child(2) {
       background: url('2.png');
@@ -101,3 +112,11 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
     }
+    center{
+      background-color: rgb(45, 47, 48);
+
+
+
+
+    }
+ 
